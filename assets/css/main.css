@@ -19,6 +19,8 @@ body {
 
 header#banner {
     margin: 25px 0;
+    /* display: flex; */
+    /* justify-content: space-between; */
 }
 
 header#banner a {
@@ -39,18 +41,21 @@ header#banner h2 {
 
 header#banner nav {
     display: inline-block;
+    float: right;
+    margin-right: 100px;
 }
 
 header#banner nav ul {
     list-style-type: none;
-    font-size: 1.05em;
-    text-transform: lowercase;
+    font-size: 0.85em;
+    text-decoration: underline;
     margin: 0;
     padding: 0;
 }
 
 header#banner nav ul li {
     display: inline;
+    line-height: 37.5px;
     margin: 0 3px;
 }
 
