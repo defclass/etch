@@ -28,6 +28,7 @@
     {{ printf `<link rel="stylesheet" href="%s">` $css.RelPermalink | safeHTML }}
 
     <title>{{ .Title }}</title>
+{{ if not .Site.IsServer }}
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-PN3F6HCHZB"></script>
 <script>
@@ -38,7 +39,6 @@
   gtag('config', 'G-PN3F6HCHZB');
 </script>
 
-
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -46,4 +46,5 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-WLRH33H');</script>
 <!-- End Google Tag Manager -->
+{{ end }}
 </head>
