@@ -28,7 +28,7 @@
     {{ printf `<link rel="stylesheet" href="%s">` $css.RelPermalink | safeHTML }}
 
     <title>{{ .Title }}</title>
-{{ if not .Site.IsServer }}
+{{ if not hugo.IsServer }}
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-PN3F6HCHZB"></script>
 <script>
