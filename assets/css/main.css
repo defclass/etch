@@ -7,7 +7,6 @@ html {
 }
 
 body {
-    font-size: 16px;
     font-size: 1.6rem;
     font-family: 'Helvetica Neue', 'Arial', sans-serif;
     color: #313a3d;
@@ -32,7 +31,6 @@ header#banner a:hover {
 
 header#banner h2 {
     display: inline;
-    font-size: 21px;
     font-size: 2.1rem;
     margin: 0 8px 0 0;
 }
@@ -52,12 +50,17 @@ header#banner nav ul {
 
 header#banner nav ul li {
     display: inline;
-    line-height: 37.5px;
+    line-height: 37px;
     margin: 0 3px;
 }
 
 header#banner nav ul li a {
     color: #454545;
+}
+
+article {
+    line-height: 2.2;
+    font-size: 0.85em;
 }
 
 main#content a {
@@ -81,7 +84,6 @@ main#content h6 {
 
 main#content h3 {
     font-size: 19px;
-    font-size: 1.9rem;
 }
 
 main#content h1 + p,
@@ -90,7 +92,7 @@ main#content h3 + p,
 main#content h4 + p,
 main#content h5 + p,
 main#content h6 + p {
-    margin-top: 5px;
+    margin-top: 20px;
 }
 
 main#content p {
@@ -107,15 +109,8 @@ main#content hr {
 /* index.html styles */
 main#content ul#posts {
     list-style-type: none;
-    font-size: 16px;
-    font-size: 1.6rem;
-    margin-top: 0;
-    padding: 0;
-}
-
-main#content ul#posts li {
-    margin: 5px 0;
-    padding: 0;
+    margin-top: 5px;
+    padding: 5px;
 }
 
 main#content ul#posts small {
@@ -124,8 +119,15 @@ main#content ul#posts small {
     margin-left: 10px;
 }
 
+main#content ul#posts li {
+    display: block;
+    margin: 5px 0;
+    padding: 0;
+}
+
 main#content ul#posts li a {
     text-decoration: none;
+    font-size: 0.8em;
 }
 
 main#content ul#posts li a:hover {
@@ -140,7 +142,6 @@ main#content ul#posts li a:hover small {
 main#content header#post-header h1 {
     display: block;
     font-size: 23px;
-    font-size: 2.3rem;
     line-height: 1.15;
 }
 
@@ -244,7 +245,6 @@ main#content code {
 main#content pre {
     display: block;
     overflow-x: auto;
-    font-size: 14px;
     font-size: 1.4rem;
     white-space: pre;
     margin: 20px 0;
@@ -262,7 +262,6 @@ main#content section.footnotes {
 
 footer#footer {
     font-size: 14px;
-    font-size: 1.4rem;
     font-weight: 300;
     color: #949494;
     margin: 15px 0;
