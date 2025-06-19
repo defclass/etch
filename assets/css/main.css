@@ -9,7 +9,7 @@ html {
 body {
     font-size: 1.6rem;
     font-family: 'Helvetica Neue', 'Arial', sans-serif;
-    color: #313a3d;
+    color: #000000;
     width: 100%;
     margin: 0 auto;
     padding: 0 16px;
@@ -96,7 +96,7 @@ main#content h6 + p {
 }
 
 main#content p {
-    color: #394548;
+    color: #000000;
     margin: 16px 0;
 }
 
