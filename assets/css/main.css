@@ -22,7 +22,7 @@ header#banner {
 }
 
 header#banner a {
-    color: #313a3d;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -32,7 +32,7 @@ header#banner a:hover {
 
 header#banner h2 {
     display: inline;
-    font-size: 2.1rem;
+    /*font-size: 2.1rem;*/
     margin: 0 8px 0 0;
 }
 
@@ -55,13 +55,11 @@ header#banner nav ul li {
     margin: 0 3px;
 }
 
-header#banner nav ul li a {
-    color: #454545;
-}
 
 article {
-    line-height: 2.2;
-    font-size: 0.85em;
+    line-height: 2em;
+    letter-spacing: 0.05em;
+    font-size: 0.9em;
 }
 
 main#content a {
@@ -129,7 +127,7 @@ main#content ul#posts li {
 
 main#content ul#posts li a {
     text-decoration: none;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 main#content ul#posts li a:hover {
